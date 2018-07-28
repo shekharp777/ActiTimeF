@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Title is matching
+]]>
+    </line>
+    <line>
+      <![CDATA[Title is matching
+]]>
+    </line>
+    <line>
+      <![CDATA[Title is matching
+]]>
+    </line>
+    <line>
+      <![CDATA[Element is presentUsername or Password is invalid. Please try again.]]>
+    </line>
+    <line>
+      <![CDATA[version is matching]]>
+    </line>
+    <line>
+      <![CDATA[Title is matching
+]]>
+    </line>
+    <line>
+      <![CDATA[Title is matching
+]]>
+    </line>
+    <line>
+      <![CDATA[Title is matching
+]]>
+    </line>
+    <line>
+      <![CDATA[Title is matching
+]]>
+    </line>
+    <line>
+      <![CDATA[Element is presentUsername or Password is invalid. Please try again.]]>
+    </line>
+    <line>
+      <![CDATA[version is matching]]>
+    </line>
+    <line>
+      <![CDATA[Title is matching
+]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2018-07-28T18:16:58Z" name="Suite" finished-at="2018-07-28T18:17:52Z" duration-ms="54510">
+    <groups>
+    </groups>
+    <test started-at="2018-07-28T18:16:58Z" name="firefox" finished-at="2018-07-28T18:17:25Z" duration-ms="27201">
+      <class name="com.AcitTime.test.ValidLoginLogoutTest">
+        <test-method is-config="true" signature="preCondition(java.lang.String)[pri:0, instance:com.AcitTime.test.ValidLoginLogoutTest@7133da86]" started-at="2018-07-28T18:16:58Z" name="preCondition" finished-at="2018-07-28T18:17:06Z" duration-ms="7725" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="testValidLogin()[pri:1, instance:com.AcitTime.test.ValidLoginLogoutTest@7133da86]" started-at="2018-07-28T18:17:06Z" name="testValidLogin" finished-at="2018-07-28T18:17:09Z" duration-ms="3540" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Title is matching
+]]>
+            </line>
+            <line>
+              <![CDATA[Title is matching
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.AcitTime.test.ValidLoginLogoutTest@7133da86]" started-at="2018-07-28T18:17:09Z" name="postCondition" finished-at="2018-07-28T18:17:09Z" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.AcitTime.test.ValidLoginLogoutTest -->
+      <class name="com.AcitTime.test.InvalideLoginTest">
+        <test-method is-config="true" signature="preCondition(java.lang.String)[pri:0, instance:com.AcitTime.test.InvalideLoginTest@32ee6fee]" started-at="2018-07-28T18:17:09Z" name="preCondition" finished-at="2018-07-28T18:17:16Z" duration-ms="6325" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="testInvalidLogin()[pri:2, instance:com.AcitTime.test.InvalideLoginTest@32ee6fee]" started-at="2018-07-28T18:17:16Z" name="testInvalidLogin" finished-at="2018-07-28T18:17:17Z" duration-ms="1220" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Title is matching
+]]>
+            </line>
+            <line>
+              <![CDATA[Element is presentUsername or Password is invalid. Please try again.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.AcitTime.test.InvalideLoginTest@32ee6fee]" started-at="2018-07-28T18:17:17Z" name="postCondition" finished-at="2018-07-28T18:17:18Z" duration-ms="918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.AcitTime.test.InvalideLoginTest -->
+      <class name="com.AcitTime.test.VersionTest">
+        <test-method is-config="true" signature="preCondition(java.lang.String)[pri:0, instance:com.AcitTime.test.VersionTest@4d0f2471]" started-at="2018-07-28T18:17:18Z" name="preCondition" finished-at="2018-07-28T18:17:25Z" duration-ms="6760" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="testVersion()[pri:3, instance:com.AcitTime.test.VersionTest@4d0f2471]" started-at="2018-07-28T18:17:25Z" name="testVersion" finished-at="2018-07-28T18:17:25Z" duration-ms="223" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[version is matching]]>
+            </line>
+            <line>
+              <![CDATA[Title is matching
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testVersion -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.AcitTime.test.VersionTest@4d0f2471]" started-at="2018-07-28T18:17:25Z" name="postCondition" finished-at="2018-07-28T18:17:25Z" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.AcitTime.test.VersionTest -->
+    </test> <!-- firefox -->
+    <test started-at="2018-07-28T18:17:25Z" name="chrome" finished-at="2018-07-28T18:17:52Z" duration-ms="27249">
+      <class name="com.AcitTime.test.ValidLoginLogoutTest">
+        <test-method is-config="true" signature="preCondition(java.lang.String)[pri:0, instance:com.AcitTime.test.ValidLoginLogoutTest@2ed2d9cb]" started-at="2018-07-28T18:17:25Z" name="preCondition" finished-at="2018-07-28T18:17:31Z" duration-ms="5909" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="testValidLogin()[pri:1, instance:com.AcitTime.test.ValidLoginLogoutTest@2ed2d9cb]" started-at="2018-07-28T18:17:31Z" name="testValidLogin" finished-at="2018-07-28T18:17:33Z" duration-ms="1864" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Title is matching
+]]>
+            </line>
+            <line>
+              <![CDATA[Title is matching
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.AcitTime.test.ValidLoginLogoutTest@2ed2d9cb]" started-at="2018-07-28T18:17:33Z" name="postCondition" finished-at="2018-07-28T18:17:35Z" duration-ms="2316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.AcitTime.test.ValidLoginLogoutTest -->
+      <class name="com.AcitTime.test.InvalideLoginTest">
+        <test-method is-config="true" signature="preCondition(java.lang.String)[pri:0, instance:com.AcitTime.test.InvalideLoginTest@1b2abca6]" started-at="2018-07-28T18:17:35Z" name="preCondition" finished-at="2018-07-28T18:17:41Z" duration-ms="5762" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="testInvalidLogin()[pri:2, instance:com.AcitTime.test.InvalideLoginTest@1b2abca6]" started-at="2018-07-28T18:17:41Z" name="testInvalidLogin" finished-at="2018-07-28T18:17:43Z" duration-ms="1714" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Title is matching
+]]>
+            </line>
+            <line>
+              <![CDATA[Element is presentUsername or Password is invalid. Please try again.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.AcitTime.test.InvalideLoginTest@1b2abca6]" started-at="2018-07-28T18:17:43Z" name="postCondition" finished-at="2018-07-28T18:17:45Z" duration-ms="2316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.AcitTime.test.InvalideLoginTest -->
+      <class name="com.AcitTime.test.VersionTest">
+        <test-method is-config="true" signature="preCondition(java.lang.String)[pri:0, instance:com.AcitTime.test.VersionTest@6392827e]" started-at="2018-07-28T18:17:45Z" name="preCondition" finished-at="2018-07-28T18:17:50Z" duration-ms="4824" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="testVersion()[pri:3, instance:com.AcitTime.test.VersionTest@6392827e]" started-at="2018-07-28T18:17:50Z" name="testVersion" finished-at="2018-07-28T18:17:50Z" duration-ms="209" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[version is matching]]>
+            </line>
+            <line>
+              <![CDATA[Title is matching
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testVersion -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.AcitTime.test.VersionTest@6392827e]" started-at="2018-07-28T18:17:50Z" name="postCondition" finished-at="2018-07-28T18:17:52Z" duration-ms="2316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.AcitTime.test.VersionTest -->
+    </test> <!-- chrome -->
+  </suite> <!-- Suite -->
+</testng-results>

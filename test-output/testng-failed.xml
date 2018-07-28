@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="firefox(failed)">
+    <parameter name="myBrowser" value="firefox"/>
+    <classes>
+      <class name="com.AcitTime.test.VersionTest">
+        <methods>
+          <include name="testVersion"/>
+          <include name="postCondition"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- com.AcitTime.test.VersionTest -->
+      <class name="com.AcitTime.test.ValidLoginLogoutTest">
+        <methods>
+          <include name="postCondition"/>
+          <include name="testValidLogin"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- com.AcitTime.test.ValidLoginLogoutTest -->
+      <class name="com.AcitTime.test.InvalideLoginTest">
+        <methods>
+          <include name="postCondition"/>
+          <include name="testInvalidLogin"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- com.AcitTime.test.InvalideLoginTest -->
+    </classes>
+  </test> <!-- firefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="classes">
+  <test name="firefox">
+  <parameter name="myBrowser" value="firefox"/>
+    <classes>
+      <class name="com.AcitTime.test.InvalideLoginTest"/>
+      <class name="com.AcitTime.test.VersionTest"/> 
+      <class name="com.AcitTime.test.ValidLoginLogoutTest"/>
+    </classes>
+  </test> <!-- Test -->
+
+  <test name="chrome">
+  <parameter name="myBrowser" value="chrome"/>
+    <classes>
+   <class name="com.AcitTime.test.InvalideLoginTest"/>
+      <class name="com.AcitTime.test.VersionTest"/> 
+      <class name="com.AcitTime.test.ValidLoginLogoutTest"/>
+    </classes>
+  </test> <!-- Test -->
+
+  
+</suite> <!-- Suite -->
+
